@@ -5,18 +5,16 @@ using namespace std;
 
 int main()
 {
-    int a,b,count=0;
-    cin >> a >>b;
+    int a,b,c,i=0;
+    cin>>a>>b>>c;
 
-    while (a<b)
+    while (a + b = c)
     {
-        a=3a;
-        b=2b;
-        count++;
+        a = c*a;
+        b = c*b;
+        c = c*c;
+        i++;
     }
-
-    cout <<""<< count;
-    
-
+    cout<<" "<<i;
     return 0;
 }
